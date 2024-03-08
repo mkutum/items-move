@@ -1,0 +1,53 @@
+.item-main{
+    width: 50%;
+    padding: 10px;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
+}
+.item-outer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    row-gap: 40px !important;
+    padding: 40px;
+}
+.quantity-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.item-div{
+    display: flex;
+    flex-direction: column;
+}
+.num-text{
+    font-size: 0.6rem;
+    color: red;
+}
+.item-qr{
+    margin-top: 50px;
+    background-color: white;
+    padding: 40px;
+}
+
+.form-submit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 15px 60px;
+    width: auto;
+    background-color: #62BDF1;
+    border: 1px solid #62BDF1;
+    border-radius: 5px;
+}
+option{
+    font-size: 2rem;
+}
+#video{
+    height: 60%;
+}
